@@ -1,3 +1,7 @@
+const port = process.env.PORT || 3001; // Change 3001 if needed
+App.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});
 
 import './App.css';
 
